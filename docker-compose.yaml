@@ -14,7 +14,7 @@ services:
         image: nginx:alpine
         restart: always
         ports:
-            - "8989:80"
+            - "9090:80"
         volumes:
             - ./:/var/www
             - ./docker/nginx/:/etc/nginx/conf.d/
