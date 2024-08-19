@@ -69,13 +69,15 @@
         <h5 class="mt-5">Gráfico de dispersão</h5>
         <canvas id="petalChart" class="canvas"></canvas>
         <p class="mt-3">No gráfico acima, cada ponto no gráfico representa uma flor, onde a posição do ponto é determinada pelo comprimento e largura das pétalas. Esse gráfico permite observar a distribuição dos dados e identificar padrões ou diferenças entre as espécies, que podem ser representadas por cores diferentes no gráfico.</p>
-        
+
         <h5 class="mt-5">Tamanho médio dos tipos</h5>
         <canvas id="averagePetalChart" class="canvas"></canvas>
         <p>Este gráfico apresenta uma comparação visual entre as três espécies de flores Iris: setosa, versicolor, e virginica. Cada ponto no gráfico representa o tamanho médio do comprimento e da largura das pétalas de cada espécie. Isso permite observar como as espécies diferem em termos de dimensões, facilitando a identificação de padrões e características distintas entre elas.</p>
     </div>
 
     <div class="card mt-2">
+        <h2 class="text-center">Conclusão</h2>
+        <p>Os gráficos de dispersão (comprimento e largura das pétalas e sépalas) ajudam a visualizar a distribuição e a separação das espécies com base nas características individuais das flores. Eles são úteis para identificar padrões e agrupamentos entre as espécies, bem como para ver como as variáveis se correlacionam. Já os gráficos de média fornecem uma visão geral das diferenças médias entre as espécies, facilitando comparações rápidas e a identificação de tendências gerais. Juntas, essas visualizações ajudam a compreender melhor a estrutura dos dados, revelando tanto as diferenças específicas quanto os padrões gerais nas características das flores Iris.</p>
         <div class="d-flex justify-content-center align-items-center">
             <a href="{{ route('data') }}" class="btn btn-primary">Acesse a coleção de dados</a>
             <a href="{{ route('download') }}" class="link-style" style="margin-left: 20px">Ou faça download do arquivo .csv</a>
